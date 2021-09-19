@@ -1,0 +1,111 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hsuan&#x27;s Blog",
+    "description": "",
+    "home_page_url": "https://hsuan1117.github.io/MyBlog",
+    "feed_url": "https://hsuan1117.github.io/MyBlog/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Hsuan1117"
+    },
+    "items": [
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/macan-jian-guai-guai-de-jie-jue-fang-fa.html",
+            "url": "https://hsuan1117.github.io/MyBlog/macan-jian-guai-guai-de-jie-jue-fang-fa.html",
+            "title": "Mac按鍵怪怪的解決方法",
+            "summary": " 設定 -> 輔助使用 -> 鍵盤 打開暫留按鍵再關閉 ",
+            "content_html": "<p><!-- wp:paragraph --></p>\n<p>設定 -> 輔助使用 -> 鍵盤 </p>\n<p>\n<!-- /wp:paragraph --></p>\n<p><!-- wp:image {\"id\":91,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} --></p>\n<figure class=\"wp-block-image size-large\"><a href=\"http://blog.hsuan.app/wp-content/uploads/2021/09/image-1.png\"><figure class=\"wp-image-91\"><img loading=\"lazy\" src=\"https://hsuan1117.github.io/MyBlog/media/posts/19/image-1-1024x745.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://hsuan1117.github.io/MyBlog/media/posts/19/responsive/image-1-1024x745-xs.png 300w ,https://hsuan1117.github.io/MyBlog/media/posts/19/responsive/image-1-1024x745-sm.png 480w ,https://hsuan1117.github.io/MyBlog/media/posts/19/responsive/image-1-1024x745-md.png 768w ,https://hsuan1117.github.io/MyBlog/media/posts/19/responsive/image-1-1024x745-lg.png 1024w ,https://hsuan1117.github.io/MyBlog/media/posts/19/responsive/image-1-1024x745-xl.png 1360w ,https://hsuan1117.github.io/MyBlog/media/posts/19/responsive/image-1-1024x745-2xl.png 1600w\"  alt=\"\" /></figure></a></figure>\n<p>\n<!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>打開暫留按鍵再關閉</p>\n<p>\n<!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>\n<!-- /wp:paragraph --></p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-09-18T11:39:27+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        },
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/uva-10921.html",
+            "url": "https://hsuan1117.github.io/MyBlog/uva-10921.html",
+            "title": "UVA 10921",
+            "summary": " #include&lt;iostream&gt;#include&lt;map&gt;using namespace std;map&lt;char, char&gt; mod;signed main(){\tstring all[8] = { &quot;ABC&quot;, &quot;DEF&quot;, &quot;GHI&quot;, &quot;JKL&quot;, &quot;MNO&quot;, &quot;PQRS&quot;, &quot;TUV&quot;, &quot;WXYZ&quot;\t};\tfor(int i=0;i&lt;8;i++){ for(auto c : all[i]){ mod[c] = '2' + i; }\t}\tstring x;\twhile(cin &gt;&gt; x){ string s = &quot;&quot;; int cnh = 0; int cna = 0; for(auto&hellip;",
+            "content_html": "<p><!-- wp:codemirror-blocks/code-block {\"mode\":\"clike\",\"mime\":\"text/x-c++src\",\"theme\":\"mdn-like\"} --></p>\n<div class=\"wp-block-codemirror-blocks-code-block code-block\">\n<pre>#include&lt;iostream&gt;<restore-line-break>#include&lt;map&gt;<restore-line-break><restore-line-break>using namespace std;<restore-line-break><restore-line-break>map&lt;char, char&gt; mod;<restore-line-break><restore-line-break>signed main(){<restore-line-break>\tstring all[8] = {<restore-line-break>\t\t&quot;ABC&quot;,<restore-line-break>\t\t&quot;DEF&quot;,<restore-line-break>\t\t&quot;GHI&quot;,<restore-line-break>\t\t&quot;JKL&quot;,<restore-line-break>\t\t&quot;MNO&quot;,<restore-line-break>\t\t&quot;PQRS&quot;,<restore-line-break>\t\t&quot;TUV&quot;,<restore-line-break>\t\t&quot;WXYZ&quot;<restore-line-break>\t};<restore-line-break>\tfor(int i=0;i&lt;8;i++){<restore-line-break>\t\tfor(auto c : all[i]){<restore-line-break>\t\t\tmod[c] = '2' + i;<restore-line-break>\t\t}<restore-line-break>\t}<restore-line-break><restore-line-break>\tstring x;<restore-line-break>\twhile(cin &gt;&gt; x){<restore-line-break>\t\tstring s = &quot;&quot;;<restore-line-break>\t\tint cnh = 0;<restore-line-break>\t\tint cna = 0;<restore-line-break>\t\tfor(auto c : x ){<restore-line-break>\t\t\tif(c == '-') {<restore-line-break>\t\t\t\ts += '-';<restore-line-break>\t\t\t\tcnh++;<restore-line-break>\t\t\t} else if ( '0' &lt;= c &amp;&amp; c &lt;= '9' ){<restore-line-break>\t\t\t\ts += c;<restore-line-break>\t\t\t} else {<restore-line-break>\t\t\t\tcna++;<restore-line-break>\t\t\t\ts += mod[c];<restore-line-break>\t\t\t}<restore-line-break>\t\t}<restore-line-break>\t\tcout &lt;&lt; s &lt;&lt; endl; //&quot; &quot; &lt;&lt; cna &lt;&lt; &quot; &quot; &lt;&lt; cnh &lt;&lt;  endl;<restore-line-break>\t}<restore-line-break>\treturn 0;<restore-line-break>}</pre>\n</div>\n<p>\n<!-- /wp:codemirror-blocks/code-block --></p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-09-11T15:50:47+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        },
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/struct-and-operator-in-c.html",
+            "url": "https://hsuan1117.github.io/MyBlog/struct-and-operator-in-c.html",
+            "title": "Struct and operator in C++",
+            "summary": " #include&lt;bits/stdc++.h&gt;using namespace std;struct Point {\tint x,y;};inline bool operator &lt;(Point a, Point b){\treturn a.x &lt; b.x;}set&lt;Point&gt; all;signed main(){\tint x,y;\twhile(cin &gt;&gt; x &gt;&gt; y){ all.emplace(Point{x,y});\t}\tfor(auto &amp;xx : all)cout &lt;&lt; xx.x &lt;&lt; &quot; &quot; &lt;&lt; xx.y &lt;&lt; endl;} 執得注意的地方 Line 15: Point{x,y} 可以初始化一個Struct ",
+            "content_html": "<p><!-- wp:codemirror-blocks/code-block {\"mode\":\"clike\",\"mime\":\"text/x-c++src\",\"lineNumbers\":true,\"theme\":\"mdn-like\"} --></p>\n<div class=\"wp-block-codemirror-blocks-code-block code-block\">\n<pre>#include&lt;bits/stdc++.h&gt;<restore-line-break>using namespace std;<restore-line-break><restore-line-break>struct Point {<restore-line-break>\tint x,y;<restore-line-break><restore-line-break>};<restore-line-break>inline bool operator &lt;(Point a, Point b){<restore-line-break>\treturn a.x &lt; b.x;<restore-line-break>}<restore-line-break>set&lt;Point&gt; all;<restore-line-break>signed main(){<restore-line-break>\tint x,y;<restore-line-break>\twhile(cin &gt;&gt; x &gt;&gt; y){<restore-line-break>\t\tall.emplace(Point{x,y});<restore-line-break>\t}<restore-line-break>\tfor(auto &amp;xx : all)cout &lt;&lt; xx.x &lt;&lt; &quot; &quot; &lt;&lt; xx.y &lt;&lt; endl;<restore-line-break>}<restore-line-break></pre>\n</div>\n<p>\n<!-- /wp:codemirror-blocks/code-block --></p>\n<p><!-- wp:paragraph --></p>\n<p>執得注意的地方</p>\n<p>\n<!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Line 15: Point{x,y} 可以初始化一個Struct</p>\n<p>\n<!-- /wp:paragraph --></p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-09-05T08:15:12+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        },
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/apcskao-qian-bi-ji.html",
+            "url": "https://hsuan1117.github.io/MyBlog/apcskao-qian-bi-ji.html",
+            "title": "APCS考前筆記",
+            "summary": " syntax onset nu!set mouse=aset ww+=&lt;,&gt; #include&lt;bits/stdc++.h&gt;#define int long long#define pii pair&lt;int, int&gt;using namespace std; signed main(){ ios::sync_with_stdio(0);cin.tie(0); return 0;} 【筆記】Dijkstra algorithm 單點源最短路徑 – Yui Huang 演算法學習筆記 【筆記】DFS (Depth First Search，深度優先搜尋) – Yui Huang 演算法學習筆記 APCS-好朋友 - Hsuan ",
+            "content_html": "<p><!-- wp:heading --></p>\n<h2>開發環境</h2>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3>vim 設定檔</h3>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:codemirror-blocks/code-block {\"fileName\":\"Config\",\"mode\":\"htmlmixed\",\"mime\":\"text/html\",\"theme\":\"mdn-like\"} --></p>\n<div class=\"wp-block-codemirror-blocks-code-block code-block\">\n<pre>syntax on<restore-line-break>set nu!<restore-line-break>set mouse=a<restore-line-break>set ww+=&lt;,&gt;</pre>\n</div>\n<p>\n<!-- /wp:codemirror-blocks/code-block --></p>\n<p><!-- wp:heading --></p>\n<h2>程式</h2>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3>基本</h3>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:list {\"ordered\":true} --></p>\n<ol>\n<li>同餘題目： 加減乘除前都可以mod P</li>\n<li>記得輸入優化</li>\n<li>可以用Python思考但盡量轉成c++</li>\n</ol>\n<p>\n<!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3>模板</h3>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:codemirror-blocks/code-block {\"fileName\":\"C++\",\"mode\":\"clike\",\"mime\":\"text/x-c++src\",\"theme\":\"mdn-like\"} --></p>\n<div class=\"wp-block-codemirror-blocks-code-block code-block\">\n<pre>#include&lt;bits/stdc++.h&gt;<restore-line-break>#define int long long<restore-line-break>#define pii pair&lt;int, int&gt;<restore-line-break>using namespace std;<restore-line-break>  <restore-line-break>signed main(){<restore-line-break>  \tios::sync_with_stdio(0);cin.tie(0);<restore-line-break>    return 0;<restore-line-break>}</pre>\n</div>\n<p>\n<!-- /wp:codemirror-blocks/code-block --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3>圖論</h3>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":77,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} --></p>\n<figure class=\"wp-block-image size-large\"><a href=\"http://blog.hsuan.app/wp-content/uploads/2021/09/image.png\"><figure class=\"wp-image-77\"><img loading=\"lazy\" src=\"https://hsuan1117.github.io/MyBlog/media/posts/16/image-1024x717.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://hsuan1117.github.io/MyBlog/media/posts/16/responsive/image-1024x717-xs.png 300w ,https://hsuan1117.github.io/MyBlog/media/posts/16/responsive/image-1024x717-sm.png 480w ,https://hsuan1117.github.io/MyBlog/media/posts/16/responsive/image-1024x717-md.png 768w ,https://hsuan1117.github.io/MyBlog/media/posts/16/responsive/image-1024x717-lg.png 1024w ,https://hsuan1117.github.io/MyBlog/media/posts/16/responsive/image-1024x717-xl.png 1360w ,https://hsuan1117.github.io/MyBlog/media/posts/16/responsive/image-1024x717-2xl.png 1600w\"  alt=\"\" /></figure></a>\n<figcaption>credit: <a href=\"https://yuihuang.com/bfs-breadth-first-search/\">【筆記】BFS (Breadth First Search，廣度優先搜尋) – Yui Huang 演算法學習筆記</a></figcaption>\n</figure>\n<p>\n<!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p><a href=\"https://yuihuang.com/dijkstra-algorithm/\">【筆記】Dijkstra algorithm 單點源最短路徑 – Yui Huang 演算法學習筆記</a></p>\n<p>\n<!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p><a href=\"https://yuihuang.com/dfs-depth-first-search/\">【筆記】DFS (Depth First Search，深度優先搜尋) – Yui Huang 演算法學習筆記</a></p>\n<p>\n<!-- /wp:paragraph --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3>DSU</h3>\n<p>\n<!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p><a href=\"https://hsuan.app/2021/08/APCS-%E5%A5%BD%E6%9C%8B%E5%8F%8B/\">APCS-好朋友 - Hsuan</a></p>\n<p>\n<!-- /wp:paragraph --></p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-09-04T22:37:08+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        },
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/shou-ye.html",
+            "url": "https://hsuan1117.github.io/MyBlog/shou-ye.html",
+            "title": "首頁",
+            "summary": " 歡迎光臨 在這裡寫一段簡短的歡迎訊息 前往購物 新商品 ",
+            "content_html": "<p><!-- wp:cover {\"url\":\"https://hsuan1117.github.io/MyBlog/media/posts/15/other-small.jpg\",\"id\":45,\"dimRatio\":0} -->\n\t\t\t\n<div class=\"wp-block-cover\" style=\"background-image:url(https://hsuan1117.github.io/MyBlog/media/posts/15/other-small.jpg)\">\n<div class=\"wp-block-cover__inner-container\"><!-- wp:paragraph {\"align\":\"center\",\"placeholder\":\"撰寫標題…\",\"textColor\":\"white\",\"fontSize\":\"large\"} -->\n\t\t\t\n<p class=\"has-text-align-center has-large-font-size\">歡迎光臨</p>\n<p>\n\t\t\t<!-- /wp:paragraph --></p>\n<p>\t\t\t<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"white\"} -->\n\t\t\t\n<p class=\"has-text-color has-text-align-center\">在這裡寫一段簡短的歡迎訊息</p>\n<p>\n\t\t\t<!-- /wp:paragraph --></p>\n<p>\t\t\t<!-- wp:button {\"align\":\"center\"} -->\n\t\t\t\n<div class=\"wp-block-button aligncenter\"><a href=\"http://blog.hsuan.app/shop\" class=\"wp-block-button__link\">前往購物</a></div>\n<p>\n\t\t\t<!-- /wp:button --></div>\n</div>\n<p>\n\t\t\t<!-- /wp:cover -->\n\t\t<!-- wp:heading {\"align\":\"center\"} -->\n\t\t\n<h2 style=\"text-align:center\">新商品</h2>\n<p>\n\t\t<!-- /wp:heading --></p>\n<p>\t\t<!-- wp:woocommerce/product-new /--> <!-- wp:media-text {\"mediaPosition\":\"right\",\"mediaId\":45,\"mediaType\":\"image\"} -->\n\t\t\t\n<div class=\"wp-block-media-text alignwide has-media-on-the-right\"\">\n<figure class=\"wp-block-media-text__media\"><figure class=\"wp-image-45\"><img loading=\"lazy\" src=\"https://hsuan1117.github.io/MyBlog/media/posts/15/other-small.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-xs.jpg 300w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-sm.jpg 480w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-md.jpg 768w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-lg.jpg 1024w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-xl.jpg 1360w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-2xl.jpg 1600w\"  alt=\"\" /></figure></figure>\n<div class=\"wp-block-media-text__content\"><!-- wp:paragraph {\"placeholder\":\"內容…\",\"fontSize\":\"large\"} -->\n\t\t\t\n<p class=\"has-large-font-size\"></p>\n<p>\n\t\t\t<!-- /wp:paragraph --></div>\n</div>\n<p>\n\t\t\t<!-- /wp:media-text --><!-- wp:media-text {\"mediaId\":45,\"mediaType\":\"image\"} -->\n\t\t\t\n<div class=\"wp-block-media-text alignwide\"\">\n<figure class=\"wp-block-media-text__media\"><figure class=\"wp-image-45\"><img loading=\"lazy\" src=\"https://hsuan1117.github.io/MyBlog/media/posts/15/other-small.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-xs.jpg 300w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-sm.jpg 480w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-md.jpg 768w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-lg.jpg 1024w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-xl.jpg 1360w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-2xl.jpg 1600w\"  alt=\"\" /></figure></figure>\n<div class=\"wp-block-media-text__content\"><!-- wp:paragraph {\"placeholder\":\"內容…\",\"fontSize\":\"large\"} -->\n\t\t\t\n<p class=\"has-large-font-size\"></p>\n<p>\n\t\t\t<!-- /wp:paragraph --></div>\n</div>\n<p>\n\t\t\t<!-- /wp:media-text --><!-- wp:media-text {\"mediaPosition\":\"right\",\"mediaId\":45,\"mediaType\":\"image\"} -->\n\t\t\t\n<div class=\"wp-block-media-text alignwide has-media-on-the-right\"\">\n<figure class=\"wp-block-media-text__media\"><figure class=\"wp-image-45\"><img loading=\"lazy\" src=\"https://hsuan1117.github.io/MyBlog/media/posts/15/other-small.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-xs.jpg 300w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-sm.jpg 480w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-md.jpg 768w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-lg.jpg 1024w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-xl.jpg 1360w ,https://hsuan1117.github.io/MyBlog/media/posts/15/responsive/other-small-2xl.jpg 1600w\"  alt=\"\" /></figure></figure>\n<div class=\"wp-block-media-text__content\"><!-- wp:paragraph {\"placeholder\":\"內容…\",\"fontSize\":\"large\"} -->\n\t\t\t\n<p class=\"has-large-font-size\"></p>\n<p>\n\t\t\t<!-- /wp:paragraph --></div>\n</div>\n<p>\n\t\t\t<!-- /wp:media-text --></p>\n<p>\t\t<!-- wp:woocommerce/featured-product /--></p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-08-23T23:51:08+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        },
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/q-6-4-chuang-guan-er-xuan-yi.html",
+            "url": "https://hsuan1117.github.io/MyBlog/q-6-4-chuang-guan-er-xuan-yi.html",
+            "title": "Q-6-4 闖關二選一",
+            "summary": " # Q-6-4N,t = [int(x) for x in input().strip().split(' ')]all = [[int(x) for x in input().strip().split(' ')] for _ in range(N)]#print(all)dp = [[-1, -1] for _ in range(N+5)]now = [[-1, -1] for _ in range(N+5)]for n,(i,j) in enumerate(all): #print(n) if n == 0: #print(abs(t-i)) dp[n][0]&hellip;",
+            "content_html": "<p><!-- wp:codemirror-blocks/code-block {\"mode\":\"python\",\"mime\":\"text/x-python\",\"lineNumbers\":true,\"theme\":\"mdn-like\"} --></p>\n<div class=\"wp-block-codemirror-blocks-code-block code-block\">\n<pre># Q-6-4<restore-line-break>N,t = [int(x) for x in input().strip().split(' ')]<restore-line-break>all = [[int(x) for x in input().strip().split(' ')] for _ in range(N)]<restore-line-break><restore-line-break>#print(all)<restore-line-break><restore-line-break>dp  = [[-1, -1] for _ in range(N+5)]<restore-line-break>now = [[-1, -1] for _ in range(N+5)]<restore-line-break>for n,(i,j) in enumerate(all):<restore-line-break>    #print(n)<restore-line-break>    if n == 0:<restore-line-break>        #print(abs(t-i))<restore-line-break>        dp[n][0] = abs(t-i)<restore-line-break>        dp[n][1] = abs(t-j)<restore-line-break>        now[n][0] = i<restore-line-break>        now[n][1] = j<restore-line-break>    else:<restore-line-break>        # 第 n 關 調成 s th ( 0 / 1 ) 的成<restore-line-break>        #print(dp[n-1][0], end=' + | ')<restore-line-break>        #print(now[n-1][0] , end=' - ')<restore-line-break>        #print(i)<restore-line-break>        #print(dp[n-1][1], end=' + | ')<restore-line-break>        #print(now[n-1][1], end=' - ')<restore-line-break>        #print(j)<restore-line-break>        dp[n][0] = min(dp[n-1][0] + abs(now[n-1][0] - i), dp[n-1][1] + abs(now[n-1][1] - i))<restore-line-break>        now[n][0] = i<restore-line-break>        dp[n][1] = min(dp[n-1][0] + abs(now[n-1][0] - j), dp[n-1][1] + abs(now[n-1][1] - j))<restore-line-break>        now[n][1] = j<restore-line-break><restore-line-break>print(min(dp[N-1][0], dp[N-1][1]))</pre>\n</div>\n<p>\n<!-- /wp:codemirror-blocks/code-block --></p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-08-23T19:42:05+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        },
+        {
+            "id": "https://hsuan1117.github.io/MyBlog/cong-hexo-zhuan-lai-wordpress.html",
+            "url": "https://hsuan1117.github.io/MyBlog/cong-hexo-zhuan-lai-wordpress.html",
+            "title": "從 Hexo 轉來 Wordpress",
+            "summary": "當初使用hexo是因為沒有Server可以放置Wordpress，現在有了Server可以放，把hexo移過來好像也可以。 ",
+            "content_html": "<p>當初使用hexo是因為沒有Server可以放置Wordpress，現在有了Server可以放，把hexo移過來好像也可以。</p>\n",
+            "author": {
+                "name": "Hsuan1117"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-08-21T22:51:14+08:00",
+            "date_modified": "2021-09-19T23:04:14+08:00"
+        }
+    ]
+}
